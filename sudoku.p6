@@ -2,3 +2,4 @@ use v6;
 my $sudoku ='000000075000080094005006000100002000009000570060030400010000230800000060632400000'; 
 for 0..8 -> $line-number {
 say substr $sudoku, $line-number * 9, 9; }
+say;
