@@ -1,0 +1,66 @@
+class Owner { ... };
+
+class Car
+{
+  trusts Owner;
+
+  has Str $.type = "no name";
+
+  method !sell { say "The $.type is sold." }
+
+}
+
+class Owner {
+  has Str $.name = "no name";
+  has Car $!car = Car.new(type => "Volvo X1");
+
+  method sell-car { $!car!Car::sell; }
+  method get-car { $!car; }
+}
+
+my Owner $o = Owner.new(name => "Tom Jones");
+$o.sell-car;
+
+say $o.get-car.type;
+
+#$o.get-car!sell;
+
+
+
+
+
+#class Car
+#{
+#  trust Owner;
+#  trust GLOBAL;
+# ...
+#}
+#$o.get-car!Car::sell;
+
+
+print "Car trusts:"; print " " ~ .^name for Car.^trusts; say "";
+
+
+class Person {
+  has Str $.name;
+}
+
+class Adult is Person
+{
+  has Str $.employer;
+}
+
+class Child is Person
+{
+  has Str $.school;
+}
+
+class Pensioner is Person
+{
+  ;
+}
+
+class Rich is Person is Owner 
+{
+  ;
+}

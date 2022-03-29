@@ -1,0 +1,10 @@
+#!/opt/rakudo-pkg/bin/perl6
+use lib "lib";
+use Person;
+
+my $tom = Person.new(name => "Tom", birthday => "12 Jan 1970");
+say $tom;
+say $tom.perl;
+say $tom.gist;
+say $tom.Str;
+

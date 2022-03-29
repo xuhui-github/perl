@@ -1,0 +1,15 @@
+use charnames ':full', ':alias' => {
+
+LONGEST => 'ARABIC LIGATURE ...',
+
+OMG_PIRATES => 'SKULL AND CROSSBONES',
+
+RQUOTE => 'RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK',
+
+LQUOTE => 'LEFT-POINTING DOUBLE ANGLE QUOTATION MARK',
+
+};
+
+binmode STDOUT, ':utf8';
+
+print "\N{LQUOTE}Hello Perl!\N{RQUOTE}\n";

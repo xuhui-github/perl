@@ -1,0 +1,1 @@
+{"version":5,"vars":[{"kind":2,"name":"ANSIColor","line":0,"containerName":"Term"},{"line":2,"name":"colored","kind":12},{"line":3,"kind":12,"name":"colored"}]}

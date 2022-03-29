@@ -1,0 +1,1 @@
+{"vars":[{"kind":2,"name":"utf8","line":1,"containerName":""},{"line":2,"containerName":"","kind":2,"name":"charnames"},{"kind":2,"name":"charnames","line":6,"containerName":""}],"version":5}

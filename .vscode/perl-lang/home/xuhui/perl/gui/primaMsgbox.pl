@@ -1,0 +1,1 @@
+{"version":5,"vars":[{"line":2,"containerName":"","kind":2,"name":"Prima"},{"name":"MsgBox","kind":2,"containerName":"Prima","line":3},{"containerName":null,"line":5,"name":"$text","localvar":"my","definition":"my","kind":13},{"kind":12,"name":"input_box","line":5},{"line":6,"kind":12,"name":"message"},{"name":"mb","kind":12,"containerName":"Ok","line":6}]}

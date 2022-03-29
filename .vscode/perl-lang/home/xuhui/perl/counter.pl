@@ -1,0 +1,1 @@
+{"vars":[{"containerName":"main::","children":[{"name":"$count","kind":13,"containerName":"counter","line":2},{"containerName":"counter","line":3,"name":"$count","kind":13}],"range":{"end":{"line":4,"character":9999},"start":{"character":0,"line":1}},"line":1,"name":"counter","kind":12,"definition":"sub"}],"version":5}

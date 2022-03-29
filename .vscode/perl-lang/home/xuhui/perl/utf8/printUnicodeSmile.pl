@@ -1,0 +1,1 @@
+{"version":5,"vars":[{"containerName":"","line":0,"name":"utf8","kind":2},{"line":6,"containerName":"","kind":2,"name":"charnames"},{"localvar":"my","kind":13,"definition":"my","name":"$arabic_alef","line":7,"containerName":null},{"kind":13,"name":"$arabic_alef","line":8,"containerName":null}]}

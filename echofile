@@ -1,0 +1,9 @@
+#!/opt/rakudo-pkg/bin/perl6
+sub MAIN ($file-name)
+{
+  for $file-name.IO.lines -> $line
+  {
+	say $line if $line.contains("a");
+  }
+}
+

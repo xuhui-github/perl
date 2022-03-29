@@ -1,0 +1,1 @@
+{"version":5,"vars":[{"name":"strict","kind":2,"containerName":"","line":2},{"containerName":"","line":3,"name":"warnings","kind":2},{"containerName":"Catalyst","line":5,"name":"ScriptRunner","kind":2},{"line":6,"containerName":"ScriptRunner","kind":12,"name":"Catalyst"},{"containerName":"main::","line":6,"name":"run","kind":12}]}

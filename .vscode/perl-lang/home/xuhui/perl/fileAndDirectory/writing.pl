@@ -1,0 +1,1 @@
+{"version":5,"vars":[{"localvar":"my","kind":13,"definition":"my","name":"$filename","line":1,"containerName":null},{"localvar":"my","definition":"my","kind":13,"name":"$fh","line":2,"containerName":null},{"kind":13,"name":"$filename","line":2,"containerName":null},{"line":4,"containerName":null,"kind":13,"name":"$fh"}]}

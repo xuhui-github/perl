@@ -1,0 +1,1 @@
+{"version":5,"vars":[{"containerName":"","line":1,"name":"lib","kind":2},{"line":2,"containerName":"","kind":2,"name":"strict"},{"containerName":"","line":3,"name":"warnings","kind":2},{"line":5,"containerName":"My::Number","kind":2,"name":"Utilities"},{"line":7,"name":"pi","kind":12},{"kind":12,"name":"is_prime","line":8}]}

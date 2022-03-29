@@ -1,0 +1,1 @@
+{"vars":[{"kind":2,"name":"BankAccount","line":0,"containerName":""},{"line":1,"containerName":"","kind":2,"name":"strict"},{"kind":2,"name":"warnings","line":2,"containerName":""},{"line":4,"containerName":"deposit","kind":12,"name":"BankAccount"},{"containerName":null,"line":5,"name":"$BankAccount","kind":13},{"kind":12,"name":"total","line":5,"containerName":""}],"version":5}
