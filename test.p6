@@ -13,7 +13,7 @@ class Directory{
   has $!total-size;
   method total-size(){
 	$!total-size //= $.size + @.children.map({.total-size}).sum;}
-  
+}
   sub tree(IO::Path $path){
 	if $path.d {
 	  return Directory.new(
@@ -29,21 +29,24 @@ class Directory{
   }
 
   sub print-tree($tree, Int $indent = 0){
-	say ' ' x $indent,format-size($tree.total-size),' ',$tree.name;
+	say ' ' x $indent,format-size($tree.total-size), ' ', $tree.name;
 	if $tree ~~ Directory {
-	  print-tree($_,$indent + 2) for $tree.children }
+	  print-tree($_, $indent + 2) for $tree.children; 
+		}
+	}
+	
+  sub format-size(Int $bytes) {
+		my @units = flat '', <k M G T P>;
+		my @steps =(1, { $_ * 1024 } ... *).head(6);
+    for @steps.kv -> $idx, $step {
+			my $in-unit = $bytes / $step;
+			if $in-unit < 1024 {
+				return sprintf '%.1f%s', $in-unit, @units[$idx];
+			}
+		}
 	}
 
-  sub format-size(Int $bytes){
-	my @units = flat '',<K M G T P>;
-	my @steps=(1, { $_ 1024} ... ).head(6);
-	for @steps.kv -> $idx, $step {
-	  my $in-unit = $bytes/$step;
-	  if $in-unit < 1024 {
-		return sprintf '%.1f%s', $in-unit, @units[$idx];
-	  }
-	}
-  }
+  
 
   sub MAIN($dir= '.'){
 	print-tree(tree($dir.IO));}
