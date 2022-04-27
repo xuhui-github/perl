@@ -1,0 +1,34 @@
+ xuhui   main  ~/perl/Example/lib  127  mail.pl
+   unique.pl
+mail.pl：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  MainWindow1.pl
+   usesvg.p6
+MainWindow1.pl：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  match.p6
+   use_vs_require.pl
+match.p6：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  My
+   utf8
+My：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  MyApp
+   variables_scope.pl
+MyApp：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  myfind.pl
+   wantarray_wantlist.pl
+myfind.pl：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  mysql.pl
+   websocket.p6
+mysql.pl：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  MyTest.pm
+   while.p6
+MyTest.pm：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  netscan.pl
+   windowpack.pl
+netscan.pl：未找到命令
+ xuhui   main  ~/perl/Example/lib  127  NewTest.pm
+   winsz.pl
+NewTest.pm：未找到命令
+ xuhui   main  ~/perl/Example/lib  127   xuhui   main  ~/
+perl 
+xuhui：未找到命令
+ xuhui   main  ~/perl/Example/lib  127 
