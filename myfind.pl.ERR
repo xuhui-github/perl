@@ -1,0 +1,7 @@
+Perltidy version is 20190601
+
+41: foreach my $hash (keys %md5){
+               ----- ^           
+found ( where operator expected (previous token underlined)
+
+Do you mean '$hash->(' ?

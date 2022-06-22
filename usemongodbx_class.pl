@@ -1,0 +1,1 @@
+use MongoDBx::Class
