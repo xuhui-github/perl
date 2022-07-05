@@ -21,3 +21,6 @@ $stmt->execute();#execute before dump_results
 $rows=$stmt->dump_results(80,"\n",":",\*FILE);
 close FILE or die "Can not closing dumpresult.lis:$!\n";
 $con->disconnect;
+sub test{
+  
+}
