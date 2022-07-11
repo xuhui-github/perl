@@ -1,3 +1,4 @@
+#!/usr/bin/perl
 use Prima qw(Application);
 
        # create a new image from scratch
