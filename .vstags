@@ -1,9 +1,10 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
-!_TAG_PROGRAM_NAME	Exuberant Ctags	//
-!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
 A	symbolic.pl	1;"	p
 A::foo	symbolic.pl	3;"	s
 ATM	ATM.pm	1;"	p
@@ -230,23 +231,23 @@ Write	MyApp/inc/Module/AutoInstall.pm	864;"	s
 WriteAll	MyApp/inc/Module/Install/WriteAll.pm	14;"	s
 WriteMyMeta	MyApp/inc/Module/Install/Metadata.pm	640;"	s
 XX	DumpVars.pl	28;"	p
-\s*ll::_read($file)::WriteMyMeta	MyApp/inc/Module/Install/Metadata.pm	640;"	s
-\s*ll::_read($file)::__extract_license	MyApp/inc/Module/Install/Metadata.pm	509;"	s
-\s*ll::_read($file)::_extract_bugtracker	MyApp/inc/Module/Install/Metadata.pm	558;"	s
-\s*ll::_read($file)::_extract_license	MyApp/inc/Module/Install/Metadata.pm	493;"	s
-\s*ll::_read($file)::_extract_perl_version	MyApp/inc/Module/Install/Metadata.pm	364;"	s
-\s*ll::_read($file)::_perl_version	MyApp/inc/Module/Install/Metadata.pm	613;"	s
-\s*ll::_read($file)::_write_mymeta_data	MyApp/inc/Module/Install/Metadata.pm	679;"	s
-\s*ll::_read($file)::add_metadata	MyApp/inc/Module/Install/Metadata.pm	626;"	s
-\s*ll::_read($file)::author_from	MyApp/inc/Module/Install/Metadata.pm	393;"	s
-\s*ll::_read($file)::bugtracker_from	MyApp/inc/Module/Install/Metadata.pm	570;"	s
-\s*ll::_read($file)::license	MyApp/inc/Module/Install/Metadata.pm	476;"	s
-\s*ll::_read($file)::license_from	MyApp/inc/Module/Install/Metadata.pm	548;"	s
-\s*ll::_read($file)::perl_version_from	MyApp/inc/Module/Install/Metadata.pm	382;"	s
-\s*ll::_read($file)::requires_from	MyApp/inc/Module/Install/Metadata.pm	588;"	s
-\s*ll::_read($file)::test_requires_from	MyApp/inc/Module/Install/Metadata.pm	599;"	s
-\s*ll::_read($file)::write_mymeta_json	MyApp/inc/Module/Install/Metadata.pm	660;"	s
-\s*ll::_read($file)::write_mymeta_yaml	MyApp/inc/Module/Install/Metadata.pm	644;"	s
+\\s*::WriteMyMeta	MyApp/inc/Module/Install/Metadata.pm	640;"	s
+\\s*::__extract_license	MyApp/inc/Module/Install/Metadata.pm	509;"	s
+\\s*::_extract_bugtracker	MyApp/inc/Module/Install/Metadata.pm	558;"	s
+\\s*::_extract_license	MyApp/inc/Module/Install/Metadata.pm	493;"	s
+\\s*::_extract_perl_version	MyApp/inc/Module/Install/Metadata.pm	364;"	s
+\\s*::_perl_version	MyApp/inc/Module/Install/Metadata.pm	613;"	s
+\\s*::_write_mymeta_data	MyApp/inc/Module/Install/Metadata.pm	679;"	s
+\\s*::add_metadata	MyApp/inc/Module/Install/Metadata.pm	626;"	s
+\\s*::author_from	MyApp/inc/Module/Install/Metadata.pm	393;"	s
+\\s*::bugtracker_from	MyApp/inc/Module/Install/Metadata.pm	570;"	s
+\\s*::license	MyApp/inc/Module/Install/Metadata.pm	476;"	s
+\\s*::license_from	MyApp/inc/Module/Install/Metadata.pm	548;"	s
+\\s*::perl_version_from	MyApp/inc/Module/Install/Metadata.pm	382;"	s
+\\s*::requires_from	MyApp/inc/Module/Install/Metadata.pm	588;"	s
+\\s*::test_requires_from	MyApp/inc/Module/Install/Metadata.pm	599;"	s
+\\s*::write_mymeta_json	MyApp/inc/Module/Install/Metadata.pm	660;"	s
+\\s*::write_mymeta_yaml	MyApp/inc/Module/Install/Metadata.pm	644;"	s
 _CLASS	MyApp/inc/Module/Install.pm	462;"	s
 __extract_license	MyApp/inc/Module/Install/Metadata.pm	509;"	s
 _accept_default	MyApp/inc/Module/AutoInstall.pm	34;"	s
@@ -334,6 +335,7 @@ fcopy	MyApp/inc/File/Copy/Recursive.pm	140;"	s
 feature	MyApp/inc/Module/Install/Metadata.pm	251;"	s
 features	MyApp/inc/Module/Install/Metadata.pm	277;"	s
 find_dups	myfind.pl	7;"	s
+find_dups	myfind.pl.tdy	7;"	s
 find_extensions	MyApp/inc/Module/Install.pm	321;"	s
 first_sub	package_namespace.pl	3;"	s
 fix_up_makefile	MyApp/inc/Module/Install/Makefile.pm	357;"	s
@@ -371,6 +373,7 @@ main::Pack	package_namespace.pl	18;"	s
 makemaker	MyApp/inc/Module/Install/Makefile.pm	45;"	s
 makemaker_append	MyApp/inc/Module/Install/Makefile.pm	138;"	s
 makemaker_args	MyApp/inc/Module/Install/Makefile.pm	101;"	s
+mango	mangotest.pl	4;"	s
 md5	change.pl	10;"	s
 missing_modules	MyApp/inc/Module/AutoInstall.pm	42;"	s
 name_from	MyApp/inc/Module/Install/Metadata.pm	343;"	s
@@ -430,19 +433,8 @@ sum	My/Math.pm	7;"	s
 switch	proto1.pl	5;"	s
 switch	proto2.pl	3;"	s
 test	8_lib.pl	2;"	s
+test	dumpresult.pl	24;"	s
 test	testPackage.pl	19;"	s
 test	wantarray_wantlist.pl	2;"	s
 test_requires	MyApp/inc/Module/Install/Metadata.pm	144;"	s
-test_requires_from	MyApp/inc/Module/Install/Metadata.pm	599;"	s
-tests_recursive	MyApp/inc/Module/Install/Makefile.pm	187;"	s
-time	jam.pl	8;"	s
-topsub	scope-my.pl	9;"	s
-version_from	MyApp/inc/Module/Install/Metadata.pm	322;"	s
-wanted	utf8/File-find.pl	12;"	s
-withdraw	BankAccount.pm	9;"	s
-withdraw	BankAccountAndATM.pl	9;"	s
-write	MyApp/inc/Module/Install/AutoInstall.pm	21;"	s
-write	MyApp/inc/Module/Install/Makefile.pm	202;"	s
-write	MyApp/inc/Module/Install/Metadata.pm	315;"	s
-write_mymeta_json	MyApp/inc/Module/Install/Metadata.pm	660;"	s
-write_mymeta_yaml	MyApp/inc/Module/Install/Metadata.pm	644;"	s
+test_requires_from	MyApp/inc/Module/Install/M_scope.pl	33;"	s

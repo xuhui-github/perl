@@ -1,1 +1,1 @@
-{"version":5,"vars":[{"name":"Prima","kind":2,"containerName":"","line":0},{"name":"message","kind":12,"line":1},{"name":"message","kind":12,"line":3},{"kind":12,"name":"mb","line":3,"containerName":"OkCancel"},{"name":"mb","kind":12,"containerName":"Information","line":3}]}
+{"vars":[{"name":"Prima","kind":2,"line":0,"containerName":""},{"line":1,"kind":12,"name":"message"},{"name":"message","line":3,"kind":12},{"name":"mb","line":3,"kind":12,"containerName":"OkCancel"},{"containerName":"Information","line":3,"kind":12,"name":"mb"}],"version":5}

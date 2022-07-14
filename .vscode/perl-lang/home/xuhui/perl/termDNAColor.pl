@@ -1,1 +1,1 @@
-{"version":5,"vars":[{"containerName":"Term","line":0,"name":"DNAColor","kind":2},{"line":1,"kind":12,"name":"colordna"}]}
+{"vars":[{"name":"DNAColor","containerName":"Term","kind":2,"line":0},{"line":1,"kind":12,"name":"colordna"}],"version":5}

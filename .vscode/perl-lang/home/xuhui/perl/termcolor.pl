@@ -1,1 +1,1 @@
-{"version":5,"vars":[{"kind":2,"name":"ANSIColor","line":0,"containerName":"Term"},{"line":2,"name":"colored","kind":12},{"line":3,"kind":12,"name":"colored"}]}
+{"version":5,"vars":[{"name":"ANSIColor","containerName":"Term","kind":2,"line":0},{"kind":12,"line":2,"name":"colored"},{"name":"colored","kind":12,"line":3}]}
