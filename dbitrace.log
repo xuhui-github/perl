@@ -1,117 +1,117 @@
-    DBI 1.643-ithread default trace level set to 0x0/1 (pid 964541 pi 555fac9c82a0) at mysql.pl line 12
-    <- prepare('select * from employees limit 10')= ( DBI::st=HASH(0x555fad31dfb0) ) [1 items] at mysql.pl line 14
-    <- execute= ( 10 ) [1 items] at mysql.pl line 15
-    DBI 1.643-ithread default trace level set to 0x0/2 (pid 964541 pi 555fac9c82a0) at mysql.pl line 17
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    DBI 1.643-ithread default trace level set to 0x0/1 (pid 1164210 pi 55d9036d02a0) at mysql.pl line 14
+    <- prepare('select * from employees limit 10')= ( DBI::st=HASH(0x55d903ddf148) ) [1 items] at mysql.pl line 16
+    <- execute= ( 10 ) [1 items] at mysql.pl line 17
+    DBI 1.643-ithread default trace level set to 0x0/2 (pid 1164210 pi 55d9036d02a0) at mysql.pl line 19
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 1
+	dbd_st_fetch for 55d903928f30, currow= 1
 	<- dbd_st_fetch, 6 cols
-    <- fetchrow_array= ( 10001 '1953-09-02' 'Georgi' 'Facello' 'M' '1986-06-26' ) [6 items] row1 at mysql.pl line 19
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    <- fetchrow_array= ( 10001 '1953-09-02' 'Georgi' 'Facello' 'M' '1986-06-26' ) [6 items] row1 at mysql.pl line 21
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 2
+	dbd_st_fetch for 55d903928f30, currow= 2
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 3
+	dbd_st_fetch for 55d903928f30, currow= 3
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 4
+	dbd_st_fetch for 55d903928f30, currow= 4
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 5
+	dbd_st_fetch for 55d903928f30, currow= 5
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 6
+	dbd_st_fetch for 55d903928f30, currow= 6
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 7
+	dbd_st_fetch for 55d903928f30, currow= 7
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 8
+	dbd_st_fetch for 55d903928f30, currow= 8
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 9
+	dbd_st_fetch for 55d903928f30, currow= 9
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 10
+	dbd_st_fetch for 55d903928f30, currow= 10
 	<- dbd_st_fetch, 6 cols
-    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x555fad31dfb0)~0x555fad3172d8) thr#555fac9c82a0
+    -> fetchrow_array for DBD::mysql::st (DBI::st=HASH(0x55d903ddf148)~0x55d903ddee78) thr#55d9036d02a0
 	-> dbd_st_fetch
-		dbd_st_fetch for 555facc1b4e8, chopblanks 0
+		dbd_st_fetch for 55d903928f30, chopblanks 0
 	dbd_st_fetch result set details
-	imp_sth->result=555fad3c5160
+	imp_sth->result=55d903e88cb0
 	mysql_num_fields=6
 	mysql_num_rows=10
 	mysql_affected_rows=10
-	dbd_st_fetch for 555facc1b4e8, currow= 11
+	dbd_st_fetch for 55d903928f30, currow= 11
 	dbd_st_fetch, no more rows to fetch
 --> dbd_st_finish
 	>- dbd_st_free_result_sets
@@ -119,15 +119,15 @@
 	<- dbd_st_free_result_sets
 
 <-- dbd_st_finish
-    -> disconnect for DBD::mysql::db (DBI::db=HASH(0x555fad31dcb0)~0x555fad31de78) thr#555fac9c82a0
-imp_dbh->pmysql: 555fad2c5240
-    <- disconnect= ( 1 ) [1 items] at mysql.pl line 24
-    -> DESTROY for DBD::mysql::st (DBI::st=HASH(0x555fad3172d8)~INNER) thr#555fac9c82a0
-    <- DESTROY= ( undef ) [1 items] at mysql.pl line 24
+    -> disconnect for DBD::mysql::db (DBI::db=HASH(0x55d903dd8d80)~0x55d903ddebc0) thr#55d9036d02a0
+imp_dbh->pmysql: 55d903ded920
+    <- disconnect= ( 1 ) [1 items] at mysql.pl line 27
+    -> DESTROY for DBD::mysql::st (DBI::st=HASH(0x55d903ddee78)~INNER) thr#55d9036d02a0
+    <- DESTROY= ( undef ) [1 items] at mysql.pl line 27
     -- DBI::END ($@: , $!: )
-    -> disconnect_all for DBD::mysql::dr (DBI::dr=HASH(0x555fad2e5b08)~0x555fad316a38) thr#555fac9c82a0
+    -> disconnect_all for DBD::mysql::dr (DBI::dr=HASH(0x55d903da75e8)~0x55d903dd8960) thr#55d9036d02a0
     <- disconnect_all= ( ) [0 items] (not implemented) at DBI.pm line 758
-!   -> DESTROY in DBD::_::common for DBD::mysql::dr (DBI::dr=HASH(0x555fad316a38)~INNER) thr#555fac9c82a0
+!   -> DESTROY in DBD::_::common for DBD::mysql::dr (DBI::dr=HASH(0x55d903dd8960)~INNER) thr#55d9036d02a0
 !   <- DESTROY= ( undef ) [1 items] during global destruction
-!   -> DESTROY for DBD::mysql::db (DBI::db=HASH(0x555fad31de78)~INNER) thr#555fac9c82a0
+!   -> DESTROY for DBD::mysql::db (DBI::db=HASH(0x55d903ddebc0)~INNER) thr#55d9036d02a0
 !   <- DESTROY= ( undef ) [1 items] during global destruction

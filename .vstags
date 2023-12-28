@@ -322,7 +322,7 @@ deposit	BankAccount.pm	3;"	s
 deposit	BankAccountAndATM.pl	3;"	s
 dircopy	MyApp/inc/File/Copy/Recursive.pm	199;"	s
 dirmove	MyApp/inc/File/Copy/Recursive.pm	340;"	s
-doPrepare	mysql.pl	25;"	s
+doPrepare	mysql.pl	26;"	s
 do_install	MyApp/inc/Module/AutoInstall.pm	46;"	s
 do_list	callsub.pl	6;"	s
 do_list_1	callsub.pl	12;"	s
@@ -437,4 +437,16 @@ test	dumpresult.pl	24;"	s
 test	testPackage.pl	19;"	s
 test	wantarray_wantlist.pl	2;"	s
 test_requires	MyApp/inc/Module/Install/Metadata.pm	144;"	s
-test_requires_from	MyApp/inc/Module/Install/M_scope.pl	33;"	s
+test_requires_from	MyApp/inc/Module/Install/Metadata.pm	599;"	s
+tests_recursive	MyApp/inc/Module/Install/Makefile.pm	187;"	s
+time	jam.pl	8;"	s
+topsub	scope-my.pl	9;"	s
+version_from	MyApp/inc/Module/Install/Metadata.pm	322;"	s
+wanted	utf8/File-find.pl	12;"	s
+withdraw	BankAccount.pm	9;"	s
+withdraw	BankAccountAndATM.pl	9;"	s
+write	MyApp/inc/Module/Install/AutoInstall.pm	21;"	s
+write	MyApp/inc/Module/Install/Makefile.pm	202;"	s
+write	MyApp/inc/Module/Install/Metadata.pm	315;"	s
+write_mymeta_json	MyApp/inc/Module/Install/Metadata.pm	660;"	s
+write_mymeta_yaml	MyApp/inc/Module/Install/Metadata.pm	644;"	s

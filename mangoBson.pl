@@ -1,4 +1,4 @@
-e Mango::BSON ':bson';
+use Mango::BSON ':bson';
 my $oid = mango->db('test')->collection('foo')
   ->insert({data => bson_bin("\x00\x01"), now => bson_time});
    

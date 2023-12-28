@@ -1,10 +1,12 @@
+#!/usr/bin/perl
 use DBI;
-
-#use strict;
+use strict;
 use warnings;
-use Try::Catch;
 use DBIx::Class;
-use Class::DBI;
+
+
+
+
 
 
 unlink 'dbitrace.log' if -e 'dbitrace.log';
@@ -24,12 +26,11 @@ while(@row=$stmt->fetchrow_array){
 
 $dbh->disconnect;
 sub doPrepare{
-	print "Preparing and executing statement\n";
+print "Preparing and executing statement\n";
 	my $th=$dbh->prepare("
 	SELECT * FROM employees LIMIT 10");
 	$th->execute;
-	return;
-
+	return
 }
 
 
