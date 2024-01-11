@@ -10,9 +10,6 @@ my @dirs=opendir(".",DIR);
 foreach(@dirs){
     print;
 }
-open("test.pl",FILE);
-use Catalyst;
-use Try::Tiny;
 
 
 

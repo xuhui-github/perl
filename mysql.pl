@@ -1,9 +1,8 @@
 #!/usr/bin/perl
-use DBI;
 use strict;
 use warnings;
 use DBIx::Class;
-
+use DBI; 
 
 
 
@@ -15,7 +14,6 @@ DBI->trace(1,'dbitrace.log');
 
 my $stmt=$dbh->prepare("select * from employees limit 10"); 
 $stmt->execute;
-
 DBI->trace(2,'dbitrace.log');
 my @row;
 while(@row=$stmt->fetchrow_array){
@@ -32,5 +30,4 @@ print "Preparing and executing statement\n";
 	$th->execute;
 	return
 }
-
 

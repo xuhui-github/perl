@@ -1,1 +1,1 @@
-{"vars":[],"version":5}
+{"vars":[{"kind":12,"name":"test","containerName":"main::","line":4,"range":{"end":{"character":9999,"line":7},"start":{"character":0,"line":4}},"children":[{"kind":13,"name":"$l","line":5,"containerName":"test"},{"containerName":"test","kind":13,"name":"$l","line":6}],"definition":"sub"}],"version":5}
