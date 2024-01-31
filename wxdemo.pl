@@ -1,7 +1,6 @@
 use Wx;
+my $app = Wx::SimpleApp->new;
+my $frame = Wx::Frame->new( undef, -1, 'Hello, world!' );
 
-        my $app = Wx::SimpleApp->new;
-        my $frame = Wx::Frame->new( undef, -1, 'Hello, world!' );
-
-        $frame->Show;
-        $app->MainLoop;
+$frame->Show;
+$app->MainLoop;
