@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use DBIx::Class;
-use DBI; 
+use DBI;
 
 unlink 'dbitrace.log' if -e 'dbitrace.log';
 my $dbh=DBI->connect("dbi:mysql:employees","xuhui","flower") or die "Can not connect Mysql:";
@@ -25,3 +25,10 @@ print "Preparing and executing statement\n";
 	return
 }
 
+sub test{
+  my ($a,$b)=@_;
+  if($a>$b){
+    return $a;
+    }
+  return $b;
+}
