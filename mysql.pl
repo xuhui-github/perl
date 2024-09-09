@@ -3,7 +3,10 @@ use strict;
 use warnings;
 use DBIx::Class;
 use DBI;
-
+use Try::Catch;
+use Moose;
+use Async;
+use DB;
 unlink 'dbitrace.log' if -e 'dbitrace.log';
 my $dbh=DBI->connect("dbi:mysql:employees","xuhui","flower") or die "Can not connect Mysql:";
 DBI->trace(1,'dbitrace.log');
