@@ -2,7 +2,7 @@
 
 use warnings;
 use strict;
-use DBI;
+
 
 my $var = 42;
 my $last;
