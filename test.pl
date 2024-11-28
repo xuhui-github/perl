@@ -8,8 +8,15 @@ my $a=23;
 print $a;
 my @dirs=opendir(".",DIR);
 foreach(@dirs){
-    print;
+    print $_;
 }
 
+use Try::Catch;
 
+try {
+die "something went wrong";
+}catch{
+}finally{
+print "finally block\n";
+};
 
