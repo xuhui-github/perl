@@ -17,7 +17,7 @@ print(@results,"\n");
  @results=mygrep {$_>3} @items;
 print(@results,"\n");
 
-@results=mygrep {$_=$_+111} @items;
+@results=mygrep {$_=1000} @items;
 print("----------\n");
 print @results,"\n";
 print @items,"\n";
