@@ -1,1 +1,0 @@
-{"vars":[{"containerName":"","kind":2,"line":0,"name":"charnames"},{"line":2,"kind":2,"containerName":"","name":"utf8"},{"line":4,"containerName":null,"kind":13,"name":"$phrase","localvar":"my","definition":"my"},{"line":5,"kind":13,"containerName":null,"name":"%phrase"},{"kind":13,"line":9,"containerName":null,"name":"$phrase"}],"version":5}

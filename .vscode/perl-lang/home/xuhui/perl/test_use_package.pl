@@ -1,1 +1,0 @@
-{"version":5,"vars":[{"line":1,"kind":2,"containerName":"","name":"BankAccount"},{"name":"ATM","containerName":"","line":2,"kind":2}]}

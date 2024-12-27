@@ -1,1 +1,0 @@
-{"vars":[{"kind":2,"line":2,"containerName":"My","name":"Math"},{"name":"My","kind":12,"line":3,"containerName":"Math::sum"},{"kind":12,"line":5,"containerName":"Math::Strict::sum","name":"My"}],"version":5}

@@ -1,1 +1,0 @@
-{"vars":[{"name":"Prima","kind":2,"line":0,"containerName":""},{"line":1,"kind":12,"name":"message"},{"name":"message","line":3,"kind":12},{"name":"mb","line":3,"kind":12,"containerName":"OkCancel"},{"containerName":"Information","line":3,"kind":12,"name":"mb"}],"version":5}

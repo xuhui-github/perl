@@ -1,1 +1,0 @@
-{"vars":[{"containerName":"","line":0,"kind":2,"name":"charnames"},{"kind":12,"line":2,"name":"LONGEST"},{"name":"OMG_PIRATES","line":4,"kind":12},{"name":"RQUOTE","line":6,"kind":12},{"kind":12,"line":8,"name":"LQUOTE"}],"version":5}

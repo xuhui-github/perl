@@ -1,1 +1,0 @@
-{"version":5,"vars":[{"name":"utf8","line":3,"kind":2,"containerName":""},{"kind":12,"line":4,"name":"warnings"},{"localvar":"my","name":"$character","definition":"my","kind":13,"containerName":null,"line":5},{"line":6,"kind":13,"containerName":null,"name":"%character"},{"name":"%character","containerName":null,"kind":13,"line":9}]}

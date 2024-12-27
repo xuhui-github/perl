@@ -1,1 +1,0 @@
-{"vars":[{"containerName":null,"line":1,"kind":13,"name":"$x"},{"containerName":"main::","line":2,"range":{"start":{"line":2,"character":0},"end":{"line":5,"character":9999}},"children":[],"kind":12,"definition":"sub","name":"foo"},{"line":10,"kind":13,"containerName":null,"name":"$pkg"},{"line":11,"kind":13,"containerName":null,"name":"$var_name"}],"version":5}

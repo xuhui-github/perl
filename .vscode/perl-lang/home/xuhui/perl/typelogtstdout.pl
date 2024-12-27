@@ -1,1 +1,0 @@
-{"version":5,"vars":[{"line":5,"containerName":null,"kind":13,"name":"%i","localvar":"my","definition":"my"},{"name":"PAGER","line":11,"kind":12},{"line":12,"containerName":null,"kind":13,"definition":"my","name":"%i","localvar":"my"},{"name":"PAGER","kind":12,"line":13},{"kind":12,"line":15,"name":"PAGER"}]}

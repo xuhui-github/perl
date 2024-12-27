@@ -1,1 +1,0 @@
-{"vars":[{"name":"%ENV","kind":13,"line":3,"containerName":null},{"line":3,"kind":12,"name":"CATALYST_SCRIPT_GEN"},{"name":"ScriptRunner","line":6,"kind":2,"containerName":"Catalyst"},{"name":"Catalyst","line":7,"kind":12,"containerName":"ScriptRunner"},{"name":"run","containerName":"main::","kind":12,"line":7}],"version":5}

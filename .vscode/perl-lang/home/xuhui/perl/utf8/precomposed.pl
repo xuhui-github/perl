@@ -1,1 +1,0 @@
-{"vars":[{"line":0,"kind":2,"containerName":"","name":"utf8"},{"kind":2,"line":1,"containerName":"","name":"charnames"},{"line":5,"containerName":null,"name":"$precomposed","localvar":"my","definition":"my","kind":13},{"containerName":null,"line":6,"kind":13,"name":"$precomposed"},{"line":8,"kind":13,"containerName":null,"name":"$precomposed"}],"version":5}
