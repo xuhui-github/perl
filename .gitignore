@@ -3,3 +3,6 @@
 .vstags
 .lsp
 *.log
+.gitignore
+\#*\#
+.\#*
