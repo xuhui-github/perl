@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use Socket;
+my $ip='127.0.0.1';
+my $port=80;
+
+
+my $binary = inet_aton($ip);
+my $socket_addr = sockaddr_in($port,$binary);
+print $socket_addr, "\n";
+
+my ($socket_port,$socket_binary) = sockaddr_in($socket_addr);
+print $socket_binary ,"\n";
+
+my $socket_dotted_decimal = inet_ntoa($socket_binary);
+print $socket_dotted_decimal,"\n";

@@ -1,12 +1,14 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use Class::DBI;
 
-require "./8_lib.pl";
+use Socket;
+
+
+
 test();
 &test;
-
-use DBI;
 use warnings;
 
 sub testit {
@@ -14,4 +16,5 @@ sub testit {
 }
 
 testit "first";
-t
+
+

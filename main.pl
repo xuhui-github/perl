@@ -1,9 +1,11 @@
+
+
 #!/usr/bin/perl
 use strict;
 use warnings;
 use DBIx::Class;
-use DBI; 
-
+use DBI;
+DBI->connect
 
 
 
@@ -30,4 +32,5 @@ print "Preparing and executing statement\n";
 	$th->execute;
 	return
 }
+
 

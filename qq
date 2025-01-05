@@ -1,0 +1,88 @@
+PLS(3pm)                                      User Contributed Perl Documentation                                      PLS(3pm)
+
+NNAAMMEE
+       PLS - Perl Language Server
+
+DDEESSCCRRIIPPTTIIOONN
+       The Perl Language Server implements a subset of the Language Server Protocol for the Perl language. Features currently
+       implemented are:
+
+       •   Go to definition (for packages, subroutines, and variables)
+
+       •   Listing all symbols in a document
+
+       •   Hovering to show documentation
+
+       •   Signature help (showing parameters for a function as you type)
+
+       •   Formatting
+
+       •   Range Formatting
+
+       •   Auto-completion
+
+       •   Syntax checking
+
+       •   Linting (using perlcritic)
+
+       •   Sorting imports
+
+OOPPTTIIOONNSS
+       This application does not take any command line options.  The following settings may be configured using your text
+       editor:
+
+       pls.cmd - path to pls
+           Make sure that "pls.cmd" is set to the path to the "pls" script on your system.  If you rely on your $PATH, ensure
+           that your editor is configured with the correct path, which may not be the same one that your terminal uses.
+
+       pls.args - args to pass to the pls command
+           Add any additional arguments needed to execute "pls" to the "pls.args" setting.  For example, if you run "pls" in a
+           docker container, "pls.cmd" would be "docker", and "pls.args" would be "["run", "--rm", "-i", "<image name>",
+           "pls"]".
+
+       pls.inc - a list of paths to add to @INC
+           You can use the $ROOT_PATH mnemonic to stand in for your project's root directory, for example "$ROOT_PATH/lib". If
+           you are using multiple workspace folders and use $ROOT_PATH, the path will be multiplied by the number of workspace
+           folders, and will be replaced that many times. This is useful if you use SVN and check out each branch to a
+           different directory.
+
+       pls.cwd - the working directory to use for pls
+           If you use $ROOT_PATH, it will be replaced by your workspace's first or only folder.
+
+       pls.perltidy.perltidyrc - the location of your ".perltidyrc" file.
+           Defaults to "~/.perltidyrc" if not configured.
+
+       pls.perlcritic.enabled - whether to enable linting using perlcritic.
+       pls.perlcritic.perlcriticrc - the location of your ".perlcriticrc" file.
+           Defaults to "~/.perlcriticrc" if not configured.
+
+       pls.syntax.enabled - whether to enable syntax checking.
+       pls.syntax.perl - path to an alternate "perl" to use for syntax checking.
+           Defaults to the "perl" used to run PLS.
+
+       pls.syntax.args - additional arguments to pass when syntax checking.
+           This is useful if there is a BEGIN block in your code that changes behavior depending on the contents of @ARGV.
+
+       You may configure a .plsignore file in your project's root directory, with a list of Perl glob patterns which you do not
+       want pls to index.
+
+       By default, PLS will index all files ending with `.pl`, `.pm`, or have `perl` in the shebang line that are not `.t`
+       files.
+
+CCAAVVEEAATTSS
+       pls is known to be compatible with Visual Studio Code, Neovim, and BBEdit.
+
+       pls will perform much better if you have an XS JSON module installed.  If you install Cpanel::JSON::XS or JSON::XS, it
+       will use one of those before falling back to JSON::PP, similar to JSON::MaybeXS.
+
+NNOOTTEESS
+       Refer to this README for instructions on configuring your specific editor:
+       <https://marketplace.visualstudio.com/items?itemName=FractalBoy.pls>
+
+CCOOPPYYRRIIGGHHTT
+       Copyright 2022 Marc Reisner
+
+LLIICCEENNSSEE
+       This library is free software; you may redistribute it and/or modify it under the same terms as Perl itself.
+
+perl v5.30.0                                               2023-01-21                                                  PLS(3pm)

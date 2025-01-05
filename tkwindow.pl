@@ -5,6 +5,7 @@ use Tk;
 
 use vars qw($var);
 
+
 my $var=1;
 my $w_top=Tk::MainWindow->new;
 
@@ -16,7 +17,7 @@ foreach my $i qw(1 2 5 10 20){
     -command => sub {
 	                  $var=$i;
 	                  $b->configure(-text => "Button: $var");
-										},
+										}
 		);
 	  }
 

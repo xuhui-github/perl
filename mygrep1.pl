@@ -1,3 +1,6 @@
+use stricts;
+use warnings;
+
 sub mygrep(&@){
   my ($test,@items)=@_;
   my @results=();

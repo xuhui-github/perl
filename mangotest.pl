@@ -1,3 +1,5 @@
+use strict;
+use warnings;
 use Mango;
 use feature state;
 
